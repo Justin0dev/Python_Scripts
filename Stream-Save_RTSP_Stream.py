@@ -3,7 +3,7 @@ import os
 import threading
 
 """
-This script records video and audio from an RTSP stream using FFmpeg, saving them as segmented MP4 and MP3 files.
+This script records an RTSP stream using FFmpeg, saving them as segmented MP4 and MP3 files.
 The `record_rtsp` function runs these recordings concurrently in separate threads,
 allowing simultaneous video and audio capture. Each recording is segmented into 10-minute (600-second) chunks. 
 The script handles errors and interruptions gracefully.  Requires FFmpeg to be
